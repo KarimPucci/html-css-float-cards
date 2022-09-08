@@ -11,14 +11,15 @@ body{
 
 .container{
   max-width: 1200px;
-  background-color: blueviolet;
+  background-color: transparent;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .titolo{
   padding-top: 20px;
   text-align: center;
-  color: rgb(231, 82, 231);
+  color: rgb(217, 37, 79);
 }
 
 .paragraf{
@@ -29,14 +30,25 @@ body{
 .box{
   width: 360px;
   float: left;
-  background-color: greenyellow;
-  border: 1px solid red;
+  background-color: rgb(44, 46, 44);
+  border: none;
   height: 100px;
   margin: 20px 0 0 30px;
+  box-shadow: 1px 1px #80807e;
+  font-size: small;
 }
 
 .box img{
   height: 99px;
   float: left;
   margin-right: 10px;
+}
+
+.pad{
+  padding: 8px;
+  color: whitesmoke;
+}
+.pad-1{
+  padding: 8px 0 0 -0.5; opacity: 0.8;
+  color: rgb(33, 85, 239);
 }
